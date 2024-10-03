@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fastapi-cqrs"
+version = "0.1.0"
+description = ""
+authors = ["adamjanasek"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+pymongo = "^4.3.3"
+psycopg2-binary = "^2.9.5"
+aio_pika = "^8.2.0"
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
